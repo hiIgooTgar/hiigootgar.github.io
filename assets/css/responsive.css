@@ -1,0 +1,129 @@
+:root {
+  --primary-color-: #5b5c5d;
+  --second-color-: #6c6c6c;
+  --third-color-: #8b8b8b;
+  --bg-primary-: #f0f0f0;
+}
+
+@media screen and (max-width: 1024px) {
+  /* project start */
+  .project .project-content .box-project {
+    width: calc(100% / 2 - 2rem);
+  }
+  .project .project-content .box-project .img-p {
+    height: auto;
+  }
+  /* project end */
+}
+
+@media screen and (max-width: 768px) {
+  .navbar_nav ul {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    padding: 8%;
+    backdrop-filter: blur(15px);
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    right: -100%;
+    background: #cccccc;
+    transition: 300ms ease-in-out;
+  }
+
+  .navbar_nav ul li {
+    margin: 1rem 0;
+  }
+
+  .navbar_nav ul .none_list::after {
+    display: none;
+  }
+
+  .navbar_nav ul #times {
+    display: inline-block;
+    font-size: 1.4rem;
+    text-shadow: 2.5px 2.5px var(--third-color-);
+  }
+
+  .navbar_nav .navbar-extra {
+    display: inline-block;
+    color: #000;
+  }
+
+  .navbar_nav .navbar-extra i {
+    font-size: 1.35rem;
+    text-shadow: 2.5px 2.5px var(--third-color-);
+  }
+
+  /* responsive section about start */
+  .about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .about .about-content .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .about .about-content .image img {
+    width: 70%;
+  }
+  /* responsive section about end */
+
+  /* education-tab */
+  .about-me #Education .education-content .box-education {
+    width: calc(100% / 2 - 1.5rem);
+  }
+
+  /* skills-tab */
+  .about-me #Skills .skills-content .box-skills {
+    width: calc(100% / 2 - 1.5rem);
+  }
+
+  /* footer start */
+  footer {
+    padding: 1.6rem 8%;
+  }
+  footer .line-horizontal-f {
+    display: none;
+  }
+  /* footer end */
+}
+
+@media screen and (max-width: 650px) {
+  /* responsive section about start */
+  .about .about-content .image {
+    display: block;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* about */
+  .about .about-content .image img {
+    width: 100%;
+  }
+
+  /* education-tab */
+  .about-me #Education .education-content .box-education {
+    width: 100%;
+  }
+
+  /* skills-tab */
+  .about-me #Skills .skills-content .box-skills {
+    width: 100%;
+  }
+
+  /* project */
+  .project .project-content .box-project {
+    width: 100%;
+  }
+
+  .project .project-content .box-project .img-p {
+    height: 170px;
+  }
+}

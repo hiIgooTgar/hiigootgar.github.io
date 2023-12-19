@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HiIgoAja.</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <!-- font icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar_nav">
+      <div class="logo">
+        <a href="#home"><span>HiIgo</span>Aja.</a>
+      </div>
+
+      <ul id="clickNav">
+        <li class="none_list">
+          <i id="times" class="fa fa-times" onclick="hideMenu()"></i>
+        </li>
+        <li><a href="#home">|| Home</a></li>
+        <li><a href="#about">|| About Me</a></li>
+        <li><a href="#project">|| Project</a></li>
+      </ul>
+
+      <div class="navbar-extra">
+        <i id="hamburger" onclick="showMenu()" class="fa fa-hamburger"></i>
+      </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h2>Hi Everbody, I'am</h2>
+        <h1>Igo Tegar Prambudhy</h1>
+        <h3>Student | FrontEnd Developer</h3>
+        <p>Welcome to my Portfolio</p>
+        <a class="btn-about" href="#about"><span> || About Me </span></a>
+      </main>
+    </section>
+
+    <!-- social media -->
+
+    <div class="social-media">
+      <div class="social-box">
+        <a href="#"
+          ><span>Instagram</span><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+        <a href="#"
+          ><span>Twitter </span><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="#"><span>Github </span><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="line-vertikal"></div>
+    </div>
+
+    <!-- section about start -->
+    <section class="about section-container-about" id="about">
+      <div class="heading">
+        <h2>|| About Me</h2>
+        <div class="line-horizontal-h"></div>
+      </div>
+
+      <div class="about-content">
+        <div class="text">
+          <p>
+            Hi I'am <span>Igo Tegar Prambudhy</span> Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Placeat est blanditiis ullam
+            distinctio maiores voluptatibus officiis excepturi ratione numquam
+            nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Delectus minus enim aut tempore perferendis dolorem vitae labore
+            consequuntur eveniet eaque!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus
+            suscipit culpa, id aliquid ipsum provident quam officia illo! Autem
+            pariatur quos, ad ea quis dolorum incidunt. Reiciendis, est, esse
+            facere a natus, nam totam nobis labore illum nisi voluptates
+            nostrum!. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Deserunt, sapiente.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Perferendis fugit, dolores unde, praesentium eligendi id provident
+            error eaque exercitationem perspiciatis expedita dolor magni velit
+            eum iure quos consectetur itaque esse cumque ipsum! Aliquam nostrum
+            repudiandae pariatur, veritatis ab odit magni accusamus soluta iste
+            beatae, expedita assumenda rerum nihil culpa ratione!
+          </p>
+        </div>
+        <div class="image">
+          <img src="./assets/images/about.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section about end -->
+
+    <!-- section about/education/skilss start -->
+    <section class="about-me section-container">
+      <button
+        class="tablink tabs_1"
+        onclick="openPage('Education', this, '#8b8b8b')"
+        id="defaultOpen">
+        Education
+      </button>
+      <button
+        class="tablink tabs_2"
+        onclick="openPage('Skills', this, '#8b8b8b')">
+        Skills
+      </button>
+
+      <div id="Education" class="tabcontent">
+        <div class="education-content">
+          <div class="box-education">
+            <i class="fa fa-graduation-cap"></i>
+            <h5>PAUD Aisyiyah Rabak</h5>
+          </div>
+          <div class="box-education">
+            <i class="fa fa-graduation-cap"></i>
+            <h5>Bustanul Athfal Rabak</h5>
+          </div>
+          <div class="box-education">
+            <i class="fa fa-graduation-cap"></i>
+            <h5>Madrasah Ibtidaiyah Muhammadiyah Rabak</h5>
+          </div>
+          <div class="box-education">
+            <i class="fa fa-graduation-cap"></i>
+            <h5>SMP Negeri 1 Kalimanah</h5>
+          </div>
+          <div class="box-education">
+            <i class="fa fa-graduation-cap"></i>
+            <h5>SMK Negeri 1 Bukateja</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="Skills" class="tabcontent">
+        <h3 class="title-t">Technology</h3>
+        <div class="skills-content">
+          <div class="box-skills">
+            <img src="./assets/images/skills/html.svg" alt="HTML">
+            <h5>HTML</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/css.svg" alt="CSS">
+            <h5>CSS</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/js.svg" alt="JavaScript">
+            <h5>JavaScript</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/bootstrap.svg" alt="Bootstrap">
+            <h5>Bootstrap</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/codeigniter.svg" alt="CodeIgniter">
+            <h5>CodeIgniter</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/php.svg" alt="PHP">
+            <h5>PHP</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/mysql.svg" alt="MySQL">
+            <h5>MySQL</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/laravel.svg" alt="Laravel">
+            <h5>Laravel</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/tailwind.svg" alt="Tailwind CSS">
+            <h5>Tailwind CSS</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/skills/java.svg" alt="Java">
+            <h5>Java</h5>
+          </div>
+        </div>
+
+        <h3 class="title-u">Used Tools</h3>
+        <div class="skills-content">
+          <div class="box-skills">
+            <img src="./assets/images/tools/vscode.svg" alt="VS Code">
+            <h5>VS Code</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/tools/git.svg" alt="Git">
+            <h5>Git</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/tools/github.svg" alt="GitHub">
+            <h5>GitHub</h5>
+          </div>
+          <div class="box-skills">
+            <img src="./assets/images/tools/photoshop.svg" alt="Photoshop">
+            <h5>Photoshop</h5>
+          </div>
+        </div>
+    </section>
+    <!-- section about/education/skilss end -->
+
+
+
+    <!-- section project start -->
+    <section class="project section-container" id="project">
+      <div class="heading">
+        <h2>|| My Project</h2>
+        <div class="line-horizontal-h"></div>
+      </div>
+
+      <div class="project-content">
+        <div class="box-project box-p-1">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_1.png" alt="Project 1">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-2">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_2.png" alt="Project 2">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-3">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_3.png" alt="Project 3">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-4">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_4.png" alt="Project 4">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-5">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_5.png" alt="Project 5">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-6">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_6.png" alt="Project 6">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-7">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_7.png" alt="Project 7">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-8">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_8.png" alt="Project 8">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-9">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_9.png" alt="Project 9">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-10">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_10.png" alt="Project 10">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <div class="box-project box-p-11">
+          <div class="img-p">
+            <div class="overlay">
+              <div class="overlay-i">
+                <a href="#">
+                  <i class="fa fa-code"></i>
+                  <p>Code</p>
+                </a>
+              </div>
+            </div>
+            <img src="./assets/images/portfolio/g_11.png" alt="Project 11">
+          </div>
+          <div class="tools">
+            <div class="items">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+            <div class="items">
+              <i class="fab fa-square-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section project end -->
+
+
+    <footer>
+      <div class="line-horizontal-f"></div>
+      <p>
+        &copy; <span id="date_copyright"></span> By Build
+        <span>Igo Tegar Prambudhy</span> | All Right Reversed
+      </p>
+      <div class="line-horizontal-f"></div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
