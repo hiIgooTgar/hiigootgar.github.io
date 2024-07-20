@@ -56,21 +56,20 @@ const sr = ScrollReveal({
   reset: true,
 });
 
-sr.reveal(" .navbar_nav", {delay: 140, origin: "top"});
-sr.reveal(" .hero .content", {delay: 190, origin: "left"});
-sr.reveal(" .social-media", {delay: 100, origin: "bottom"});
-sr.reveal(" footer", {delay: 100, origin: "top"});
-sr.reveal(" .heading", {delay: 100, origin: "left"});
-sr.reveal(" .about", {delay: 100, origin: "top"});
-sr.reveal(" .about-me", {delay: 100, origin: "top"});
-sr.reveal(" .box-p-1", {delay: 150, origin: "top"});
-sr.reveal(" .box-p-2", {delay: 250, origin: "top"});
-sr.reveal(" .box-p-3", {delay: 350, origin: "top"});
-sr.reveal(" .box-p-4", {delay: 150, origin: "top"});
-sr.reveal(" .box-p-5", {delay: 250, origin: "top"});
-sr.reveal(" .box-p-6", {delay: 350, origin: "top"});
-sr.reveal(" .box-p-7", {delay: 150, origin: "top"});
-sr.reveal(" .box-p-8", {delay: 250, origin: "top"});
-sr.reveal(" .box-p-9", {delay: 350, origin: "top"});
-sr.reveal(" .box-p-10", {delay: 150, origin: "top"});
-sr.reveal(" .box-p-11", {delay: 250, origin: "top"});
+sr.reveal(".navbar_nav", {delay: 140, origin: "top"});
+sr.reveal(".hero .content", {delay: 190, origin: "left"});
+sr.reveal(".social-media", {delay: 100, origin: "bottom"});
+// sr.reveal(".heading", {delay: 100, origin: "left"});
+// sr.reveal(".about", {delay: 300, origin: "top"});
+// sr.reveal(".about-me-educ-skills", {delay: 300, origin: "top"});
+// sr.reveal(".box-p-1", {delay: 250, origin: "top"});
+// sr.reveal(".box-p-2", {delay: 300, origin: "top"});
+// sr.reveal(".box-p-3", {delay: 350, origin: "top"});
+// sr.reveal(".box-p-4", {delay: 250, origin: "top"});
+// sr.reveal(".box-p-5", {delay: 300, origin: "top"});
+// sr.reveal(".box-p-6", {delay: 350, origin: "top"});
+// sr.reveal(".box-p-7", {delay: 250, origin: "top"});
+// sr.reveal(".box-p-8", {delay: 300, origin: "top"});
+// sr.reveal(".box-p-9", {delay: 350, origin: "top"});
+// sr.reveal(".box-p-10", {delay: 250, origin: "top"});
+// sr.reveal(".box-p-11", {delay: 300, origin: "top"});
