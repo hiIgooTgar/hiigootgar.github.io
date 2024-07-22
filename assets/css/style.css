@@ -474,11 +474,20 @@ body {
   transition: 300ms ease-in-out;
 }
 
+.project .project-content .box-project .img-p .overlay .overlay-i {
+  display: flex;
+  gap: 1rem;
+}
+
 .project .project-content .box-project .img-p .overlay .overlay-i a {
   color: #fff;
   display: flex;
   gap: 0.2rem;
   align-items: center;
+}
+
+.project .project-content .box-project .img-p .overlay .overlay-i a:hover {
+  color: #ccc;
 }
 
 .project .project-content .box-project .img-p .overlay .overlay-i a p {
